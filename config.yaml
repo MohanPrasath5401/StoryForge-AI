@@ -1,0 +1,66 @@
+# StoryForge AI - global configuration. Override any key with --config my.yaml
+paths:
+  outputs: outputs            # override with env STORYFORGE_OUTPUT (e.g. a Google Drive folder)
+  characters: assets/characters
+
+video:
+  width: 1920
+  height: 1080
+  fps: 24
+  beat_seconds: 5             # target narrative beat length
+  min_scene_seconds: 3.0      # never shorter than this
+  tail_pad_seconds: 0.5       # breathing room after narration
+  crf: 18
+
+script:
+  max_characters_per_scene: 3
+  words_per_beat: {en: 14, ta: 9}   # ~5s of speech
+  llm_model: Qwen/Qwen2.5-3B-Instruct   # only used with --llm
+
+keyframe:
+  backend: sdxl               # sdxl | mock
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  ip_adapter_repo: h94/IP-Adapter
+  ip_adapter_subfolder: sdxl_models
+  ip_adapter_weight: ip-adapter_sdxl.bin
+  ip_adapter_scale: 0.65      # keep 0.60-0.75
+  width: 1344
+  height: 768
+  steps: 28
+  guidance: 6.5
+  lora_repo: ""               # optional style LoRA (HF repo id), e.g. a watercolor/ghibli SDXL LoRA
+  lora_weight_name: ""
+  lora_scale: 0.8
+  style: storybook            # key in utils/styles.py
+  seed: 1234
+
+animation:
+  backend: kenburns           # kenburns (any hardware, fast) | ltx (AI motion, needs GPU, slow)
+  ltx_model: Lightricks/LTX-Video
+  ltx_width: 768
+  ltx_height: 448
+  ltx_frames: 121             # 8n+1, ~5s at 24fps
+  ltx_steps: 30
+  ltx_guidance: 3.0
+
+voice:
+  engine: edge-tts
+  en_voice: en-US-AvaNeural
+  ta_voice: ta-IN-PallaviNeural
+  rate: "-5%"                 # slightly slower = more natural narration
+
+music:
+  enabled: true
+  model: facebook/musicgen-small
+  volume: 0.30                # base level; sidechain ducking pulls it to ~15% under speech
+  default_mood: warm acoustic ambient, gentle, cinematic storytelling
+
+subtitles:
+  enabled: true
+  font: Noto Sans
+  size: 16
+
+lip_sync:
+  enabled: false              # Wav2Lip is poor on cartoon faces; leave off unless realistic style
+  wav2lip_dir: third_party/Wav2Lip
+  checkpoint: third_party/Wav2Lip/checkpoints/wav2lip_gan.pth

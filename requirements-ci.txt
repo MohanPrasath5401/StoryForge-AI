@@ -1,0 +1,4 @@
+pillow
+pyyaml
+numpy
+pytest
