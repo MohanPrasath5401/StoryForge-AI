@@ -33,7 +33,7 @@ class KeyframeGenerator:
             pipe.load_lora_weights(self.k["lora_repo"], adapter_name="style", **kw)
             pipe.set_adapters(["style"], adapter_weights=[self.k["lora_scale"]])
         pipe.enable_model_cpu_offload()
-        pipe.enable_vae_slicing(); pipe.enable_vae_tiling()
+        pipe.vae.enable_slicing(); pipe.vae.enable_tiling()
         self.pipe = pipe
 
     def unload(self):
