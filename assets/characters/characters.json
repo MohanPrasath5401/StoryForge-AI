@@ -1,0 +1,244 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "folder": "01_older_woman_builder",
+      "name": "Older Woman Builder",
+      "description": "Gray hair, round glasses, yellow hard hat, orange jacket, blueprints",
+      "use_cases": "Construction, engineering, leadership"
+    },
+    {
+      "id": 2,
+      "folder": "02_teen_boy_artist",
+      "name": "Teen Boy Artist",
+      "description": "Black beret, short curly hair, white tee, paintbrush",
+      "use_cases": "Art, creativity, youth projects"
+    },
+    {
+      "id": 3,
+      "folder": "03_male_doctor",
+      "name": "Male Doctor",
+      "description": "Swept back gray hair, mustache, white coat, blue shirt, stethoscope",
+      "use_cases": "Medical drama, health advice"
+    },
+    {
+      "id": 4,
+      "folder": "04_young_woman_doctor",
+      "name": "Young Woman Doctor",
+      "description": "Long brown hair, stethoscope, mint shirt, dark tie",
+      "use_cases": "Clinical care, hospital scenes"
+    },
+    {
+      "id": 5,
+      "folder": "05_indigenous_woman",
+      "name": "Indigenous Woman",
+      "description": "Long dark wavy hair, tan fringed dress, beaded necklace, clipboard",
+      "use_cases": "Environmental research, heritage"
+    },
+    {
+      "id": 6,
+      "folder": "06_elderly_chef",
+      "name": "Elderly Chef",
+      "description": "White chef hat, gray beard, glasses, red neckerchief, white jacket",
+      "use_cases": "Culinary, street food, kindness"
+    },
+    {
+      "id": 7,
+      "folder": "07_police_officer",
+      "name": "Police Officer",
+      "description": "Navy cap with badge, navy uniform, warm smile",
+      "use_cases": "Community safety, law enforcement"
+    },
+    {
+      "id": 8,
+      "folder": "08_bearded_mechanic",
+      "name": "Bearded Mechanic",
+      "description": "Dark hair, full beard, blue work shirt, holding a wrench",
+      "use_cases": "Garage, repair, technical work"
+    },
+    {
+      "id": 9,
+      "folder": "09_elderly_doctor",
+      "name": "Elderly Doctor",
+      "description": "White hair and beard, glasses, white coat over teal scrubs",
+      "use_cases": "Wisdom, gentle medical care"
+    },
+    {
+      "id": 10,
+      "folder": "10_firefighter",
+      "name": "Firefighter",
+      "description": "Curly hair, red fire helmet, black protective jacket",
+      "use_cases": "Rescue, courage, emergency"
+    },
+    {
+      "id": 11,
+      "folder": "11_woman_doctor_wrench",
+      "name": "Woman Doctor Wrench",
+      "description": "Brown hair in bun, white coat, stethoscope, holding a wrench",
+      "use_cases": "Bio-engineering, medical tech"
+    },
+    {
+      "id": 12,
+      "folder": "12_indigenous_man",
+      "name": "Indigenous Man",
+      "description": "Feather headband, long dark hair, fringed buckskin tunic, beaded collar",
+      "use_cases": "Traditional wisdom, nature"
+    },
+    {
+      "id": 13,
+      "folder": "13_photographer_boy",
+      "name": "Photographer Boy",
+      "description": "Short black hair, olive jacket, camera around neck",
+      "use_cases": "Journalism, street photography"
+    },
+    {
+      "id": 14,
+      "folder": "14_ballerina_girl",
+      "name": "Ballerina Girl",
+      "description": "Hair in bun with ribbon, pink leotard and tutu, graceful pose",
+      "use_cases": "Dance recitals, artistic grace"
+    },
+    {
+      "id": 15,
+      "folder": "15_girl_cycling_baby",
+      "name": "Girl Cycling (Baby)",
+      "description": "Curly updo, lilac top, baby in yellow sling, bicycle",
+      "use_cases": "Family commute, parenting"
+    },
+    {
+      "id": 16,
+      "folder": "16_grandmother_baby",
+      "name": "Grandmother (Baby)",
+      "description": "Gray hair, white chef hat, baby in teal sling, blue bicycle",
+      "use_cases": "Intergenerational family warmth"
+    },
+    {
+      "id": 17,
+      "folder": "17_schoolgirl",
+      "name": "Schoolgirl",
+      "description": "Long brown hair, pink shirt, backpack",
+      "use_cases": "School life, innocence, emotion"
+    },
+    {
+      "id": 18,
+      "folder": "18_soccer_boy_book",
+      "name": "Soccer Boy (Book)",
+      "description": "Short dark hair, red jersey with green badge, holding book",
+      "use_cases": "Student athlete, learning"
+    },
+    {
+      "id": 19,
+      "folder": "19_soccer_boy_ball",
+      "name": "Soccer Boy (Ball)",
+      "description": "Short dark hair, red jersey with green badge, holding soccer ball",
+      "use_cases": "Sports, energy, team play"
+    },
+    {
+      "id": 20,
+      "folder": "20_pilot",
+      "name": "Pilot",
+      "description": "Navy pilot cap, navy jacket with gold stripes, white shirt",
+      "use_cases": "Aviation, travel, adventure"
+    },
+    {
+      "id": 21,
+      "folder": "21_guitarist",
+      "name": "Guitarist",
+      "description": "Long wavy dark hair, red striped tee, acoustic guitar",
+      "use_cases": "Music performance, campfire"
+    },
+    {
+      "id": 22,
+      "folder": "22_farmer",
+      "name": "Farmer",
+      "description": "Straw hat, graying beard, green plaid shirt, overalls, shovel",
+      "use_cases": "Agriculture, rural life, hard work"
+    },
+    {
+      "id": 23,
+      "folder": "23_mother_toddler",
+      "name": "Mother with Toddler",
+      "description": "Hair in twists, purple tee, holding toddler with puffs",
+      "use_cases": "Parental love, home stories"
+    },
+    {
+      "id": 24,
+      "folder": "24_grandmother_baker",
+      "name": "Grandmother Baker",
+      "description": "Gray hair, white chef cap, maroon top, white apron, fresh bread",
+      "use_cases": "Baking, home warmth, care"
+    },
+    {
+      "id": 25,
+      "folder": "25_construction_worker",
+      "name": "Construction Worker",
+      "description": "Yellow hard hat, short beard, blue shirt, orange safety vest",
+      "use_cases": "Building, industrial labor"
+    },
+    {
+      "id": 26,
+      "folder": "26_librarian_scientist",
+      "name": "Librarian / Scientist",
+      "description": "Auburn bob, round glasses, white coat, holding a book",
+      "use_cases": "Research, library, science"
+    },
+    {
+      "id": 27,
+      "folder": "27_indigenous_woman_hb",
+      "name": "Indigenous Woman HB",
+      "description": "Feather headband, long braided hair, beaded necklace, fringed top",
+      "use_cases": "Culture, storytelling, nature"
+    },
+    {
+      "id": 28,
+      "folder": "28_woman_hijab_healthcare",
+      "name": "Woman Hijab (Health)",
+      "description": "Teal hijab over white cap, teal scrubs, ID badge",
+      "use_cases": "Healthcare, diversity, compassion"
+    }
+  ],
+  "pairs": [
+    {
+      "a": 6,
+      "b": 17,
+      "theme": "Kindness & Warmth",
+      "examples": "Sharing meals in rainy street markets, mentorship"
+    },
+    {
+      "a": 6,
+      "b": 18,
+      "theme": "Nourishment & Joy",
+      "examples": "Post-game treats, community kitchen stories"
+    },
+    {
+      "a": 24,
+      "b": 14,
+      "theme": "Care & Dreams",
+      "examples": "Baking together, encouraging artistic dreams"
+    },
+    {
+      "a": 9,
+      "b": 17,
+      "theme": "Gentleness & Healing",
+      "examples": "Clinic visits, health education, comforting moments"
+    },
+    {
+      "a": 22,
+      "b": 18,
+      "theme": "Nature & Hard Work",
+      "examples": "Harvest help, countryside life, learning agriculture"
+    },
+    {
+      "a": 7,
+      "b": 13,
+      "theme": "Guidance & Safety",
+      "examples": "Community protection, street photography safety"
+    },
+    {
+      "a": 21,
+      "b": 14,
+      "theme": "Artistic Harmony",
+      "examples": "Musical performances, dance recitals, creative collaboration"
+    }
+  ]
+}
