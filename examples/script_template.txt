@@ -1,0 +1,8 @@
+# TEMPLATE - copy me.
+# @setting / @music / @motion are sticky until you change them.
+# [06,17] picks characters by ID (max 3 per beat). Tags stay active until the next tag.
+# You can also just write "Character 06" or the name ("elderly chef") inside the sentence.
+# Write in English, Tamil, or both - language is detected per beat. Aim for ~14 English words / ~9 Tamil words per beat.
+@setting: your location here
+@music: mood words here
+[21,14] Your first narration sentence goes here.

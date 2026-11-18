@@ -1,0 +1,7 @@
+# Bilingual demo: Tamil narration + English beats (Tamil beats use the ta-IN voice automatically)
+@setting: a cozy rainy street market at dusk, warm lanterns
+@music: warm acoustic, gentle, rainy evening
+[06,17] மழை பெய்யும் மாலை நேரத்தில், சந்தை முழுவதும் விளக்குகளால் ஒளிர்ந்தது.
+முதியவர் சமையற்காரர் ஒரு சிறுமிக்கு சூடான சூப் கொடுத்தார்.
+[06,17] The little girl smiled for the first time that day.
+அன்றிலிருந்து அவர்கள் நல்ல நண்பர்களானார்கள்.

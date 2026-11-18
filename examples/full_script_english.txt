@@ -1,0 +1,18 @@
+# The Rainy Market  (English demo, ~1 minute)
+@setting: a cozy rainy street market at dusk, string lights, puddles reflecting warm lanterns
+@music: warm acoustic guitar, gentle piano, rainy evening, heartwarming
+@motion: soft rain falling, steam rising from food stalls, slow camera push-in
+
+[06,17] Character 06 had run his little noodle stall for forty years, and every evening the rain made the market glow.
+Today a schoolgirl stood shivering beside his stall, clutching her backpack and staring at the steaming bowls.
+He smiled, wiped his hands on his apron, and slid a warm bowl across the counter without a word.
+"This one is on the house," he said, "but you must promise to tell me about your day."
+
+@setting: under a red umbrella beside the noodle stall
+[06,17] Between sips of soup, Character 17 told him about her spelling test and the friend who had moved away.
+The old chef listened carefully, nodding, the way only someone who has lived a long life can listen.
+
+@setting: the market at night, rain easing, golden lights
+@music: hopeful, soft strings, gentle ending
+[06,17] When the rain finally stopped, she hugged him goodbye and promised to come back tomorrow.
+And that is how a bowl of noodles became the start of a beautiful friendship.
